@@ -38,11 +38,21 @@
 }
 
 .contentArea {
-  padding-top: 25px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 25px 10px 10px 10px;
   height: 700px;
   width: 60%;
   margin: auto;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
+
+.addSong {
+  text-align: left;
+  font-weight: bold;
+}
+
+.addSong input[type = 'text']{
+  border: solid #d6d9de ;
+  width: 30%;
+}
+
