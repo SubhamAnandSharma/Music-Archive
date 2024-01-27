@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.contentArea {
+  padding-top: 25px;
+  height: 700px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
