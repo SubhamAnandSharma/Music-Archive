@@ -49,6 +49,11 @@ export default function Navbar(props) {
                     Add Song
                   </Link>
                 </li>
+                <li>
+                  <Link to="/show-songs" className="dropdown-item">
+                    All Songs
+                  </Link>
+                </li>
               </ul>
             </li>
           </ul>

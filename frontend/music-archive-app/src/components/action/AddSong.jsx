@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import axiosInstance from './AxiosInstance';
+import axiosInstance from '../AxiosInstance';
 
 export default function AddSong() {
   const [file, setFile] = useState(null);
