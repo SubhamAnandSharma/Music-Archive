@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.mongodb.client.gridfs.GridFSBucket;
@@ -21,7 +20,6 @@ public class GridFsService {
 
     private final GridFSBucket gridFSBucket;
 
-    @Autowired
     public GridFsService(MongoConfig mongoConfig) {
         this.gridFSBucket = GridFSBuckets.create(mongoConfig.mongoClient().getDatabase("musicarchive"));
     }
