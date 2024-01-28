@@ -8,7 +8,7 @@ public class MusicArchiveApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MusicArchiveApplication.class, args);
-		System.out.println("Application Music Archive Has Started!");
+		System.out.println("\n\nApplication Music Archive Has Started!\n\n");
 	}
 
 }
